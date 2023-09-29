@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Merge (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Merge (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
