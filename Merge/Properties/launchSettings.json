@@ -1,7 +1,8 @@
 {
   "profiles": {
     "Merge (Package)": {
-      "commandName": "MsixPackage"
+      "commandName": "MsixPackage",
+      "commandLineArgs": "C:\\Users\\ASUS\\Desktop\\ConeIce.pdf C:\\Users\\ASUS\\Desktop\\merged.pdf"
     },
     "Merge (Unpackaged)": {
       "commandName": "Project"
