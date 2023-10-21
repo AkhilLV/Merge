@@ -1,15 +1,15 @@
 using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using PdfSharp.Pdf;
+using PdfSharp.Pdf.IO;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using Windows.Storage.Pickers;
-using Windows.Storage;
-using Microsoft.UI.Xaml.Controls;
 using System.Diagnostics;
-using PdfSharp.Pdf.IO;
-using PdfSharp.Pdf;
 using System.IO;
+using System.Text;
 using System.Threading.Tasks;
+using Windows.Storage;
+using Windows.Storage.Pickers;
 
 namespace Merge
 {
@@ -128,7 +128,8 @@ namespace Merge
                 {
                     Console.WriteLine("No files selected");
                 }
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 Debug.WriteLine(ex);
             }
